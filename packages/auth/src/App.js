@@ -8,7 +8,7 @@ import { SignIn } from "./components/Signin";
 import { SignUp } from "./components/SignUp";
 
 const generateClassName = createGenerateClassName({
-  productionPrefix: "auth",
+  productionPrefix: "au",
 });
 
 export default ({ history }) => {
