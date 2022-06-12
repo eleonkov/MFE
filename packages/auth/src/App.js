@@ -4,8 +4,9 @@ import {
   StylesProvider,
   createGenerateClassName,
 } from "@material-ui/core/styles";
+
 import { SignIn } from "./components/Signin";
-import { SignUp } from "./components/SignUp";
+import { SignUp } from "./components/Signup";
 
 const generateClassName = createGenerateClassName({
   productionPrefix: "au",
