@@ -52,7 +52,7 @@ export function SignUp({ onSignIn }) {
 
   return (
     <Container component="main" maxWidth="xs">
-      {/* <div className={classes.paper}>
+      <div className={classes.paper}>
         <Avatar className={classes.avatar}>
           <LockOutlinedIcon />
         </Avatar>
@@ -137,7 +137,7 @@ export function SignUp({ onSignIn }) {
       </div>
       <Box mt={5}>
         <Copyright />
-      </Box> */}
+      </Box>
     </Container>
   );
 }
